@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SignIn from './src/components/SignIn'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello, World!</Text>
+        <SignIn/>
       </View>
     );
   }
